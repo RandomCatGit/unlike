@@ -3,7 +3,7 @@ A simple script automation to remove all pages and groups from your facebook lik
 
 ## Disclaimer
 
-The following code is given to the public for useage limited to simplyfying the process of disliking/unsubscribing from a plathora of pages that were unknowingly subscribed to and now the user's timeline is filled with unrelated/misleading/annoying content who wish to dislike them as a bulk. Using this script, ALL YOUR LIKED/SUBSCRIBED PAGES AND GROUPS WILL GET REMOVED without controlled operation. I am not responsible and in any case will not be responsible for any damage/loss or any such things that may come out of execuring this script whatsoever. Run it at your own discretion.
+The following code is given to the public for usage limited to simplifying the process of disliking/unsubscribing from a plethora of pages that were unknowingly subscribed to and now the user's timeline is filled with unrelated/misleading/annoying content who wish to dislike them as a bulk. Using this script, ALL YOUR LIKED/SUBSCRIBED PAGES AND GROUPS WILL GET REMOVED without controlled operation. I am not responsible and in any case will not be responsible for any damage/loss or any such things that may come out of executing this script whatsoever. Run it at your own discretion.
 
 You will need a fast internet connection and fast computer for this to work effectively. If not, adjust the timeout parameter in the code.
 
@@ -54,7 +54,7 @@ setTimeout(function() {
 	document.getElementsByClassName('groupsLeaveButton')[0].click();
 }, 1500); // timeout between confirmation dialog popup</pre>
 
-The page gets refreshed everytime you leave a group so you need to press up and enter after the page is refreshed to execute the last snippet executed. I automated that process as well in Java. This cannot be run in browser console and requires a Java Environment/JVM to run. If you're a developer, you know what to do. I leave the code below:
+The page gets refreshed every time you leave a group so you need to press up and enter after the page is refreshed to execute the last snippet executed. I automated that process as well in Java. This cannot be run in browser console and requires a Java Environment/JVM to run. If you're a developer, you know what to do. I leave the code below:
 
 <pre>/**
  * A simple Robot execution in Java for pressing up and enter key with a specific timeout
