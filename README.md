@@ -93,3 +93,31 @@ public class Keypresser {
 	}
 
 }</pre>
+
+## Unfriend
+
+Included on 26-03-2019
+
+Another simple script to unfriend all from Facebook.
+
+<pre>function unLike(bool,iter) {
+  try {
+    setTimeout(function() {
+      document.getElementsByClassName('friendButton')[iter].click(); // clicked first liked button
+      setTimeout(function() {
+        document.getElementsByClassName('FriendListUnfriend')[0].getElementsByTagName('span')[0].click()
+        //if (document.getElementsByClassName('_52nf').length > 0) {
+          if (bool) {
+            document.scrollingElement.scrollTop += 114;
+          }
+          unLike(!bool,iter+1);
+        //}
+      }, 2000);
+    }, 500);
+  } catch (ex) {
+    setTimeout(function() {
+      unLike(bool,iter+1);
+    }, 1000);
+  }
+}
+unLike(false,0);</pre>
