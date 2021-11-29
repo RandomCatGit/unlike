@@ -3,7 +3,7 @@ A simple script automation to remove all pages and groups from your facebook lik
 
 ## Disclaimer
 
-The following code is given to the public for usage limited to simplifying the process of disliking/unsubscribing from a plethora of pages that were unknowingly subscribed to and now the user's timeline is filled with unrelated/misleading/annoying content who wish to dislike them as a bulk. Using this script, ALL YOUR LIKED/SUBSCRIBED PAGES AND GROUPS WILL GET REMOVED without controlled operation. I am not responsible and in any case will not be responsible for any damage/loss or any such things that may come out of executing this script whatsoever. Run it at your own discretion.
+The following code is given to the public for usage limited to simplifying the process of disliking/unsubscribing from a plethora of pages that were unknowingly subscribed to and now the user's timeline is filled with unrelated/misleading/annoying content who wish to dislike them as a bulk. Using this script, ALL YOUR LIKED/SUBSCRIBED PAGES AND GROUPS WILL GET REMOVED without controlled operation. I am not responsible and in any case will not be responsible for any damage/loss or any such things that may come out of executing this script whatsoever. The script may or may not work depending upon the canges made by Facebook on their site's HTML structure or other related details and I do not guarentee the following script to work whatsoever. Run it at your own discretion.
 
 You will need a fast internet connection and fast computer for this to work effectively. If not, adjust the timeout parameter in the code.
 
